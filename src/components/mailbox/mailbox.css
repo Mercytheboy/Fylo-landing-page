@@ -1,0 +1,37 @@
+.mailbox__section {
+  background: var(--intro-email-bg);
+  max-width: 600px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: auto;
+}
+
+.mailbox__section h2 {
+  margin-bottom: 1rem;
+}
+
+.mailbox__section p {
+  margin-bottom: 1rem;
+}
+
+.mailbox__section-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.mailbox__section-form input {
+  flex-grow: 2;
+  border: 0;
+  outline: 0;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+
+.mailbox__section-form button {
+  flex-grow: 1;
+  flex-shrink: 0;
+}

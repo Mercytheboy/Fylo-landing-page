@@ -1,0 +1,17 @@
+.feature {
+  max-width: 350px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.feature__img {
+  width: 100px;
+}
+
+.feature__content h2 {
+  margin-bottom: 1rem;
+}

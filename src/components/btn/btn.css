@@ -1,0 +1,24 @@
+.btn {
+  font-family: "Raleway", sans-serif;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 16px;
+  width: 200px;
+  padding: 1rem;
+  background: linear-gradient(to right, var(--cyan-color), var(--blue-color));
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 1.5rem;
+  color: var(--white-color);
+}
+
+.btn:hover {
+  background: var(--cyan-color);
+}
+
+@media screen and (max-width: 450px) {
+  .btn {
+    width: 100%;
+  }
+}

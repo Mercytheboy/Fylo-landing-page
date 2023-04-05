@@ -1,0 +1,14 @@
+.features__section {
+  margin-top: 4rem;
+
+  display: flex;
+  justify-content: space-around;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 768px) {
+  .features__section {
+    margin-top: 2rem;
+  }
+}

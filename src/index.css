@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --intro-email-bg: hsl(217, 28%, 15%);
+  --main-bg: hsl(218, 28%, 13%);
+  --footer-bg: hsl(216, 53%, 9%);
+  --testimonials-bg: hsl(219, 30%, 18%);
+  --cyan-color: hsl(176, 68%, 64%);
+  --blue-color: hsl(198, 60%, 50%);
+  --light-Red-color: hsl(0, 100%, 63%);
+  --white-color: hsl(0, 0%, 100%);
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  color: var(--white-color);
+  background: var(--main-bg);
+}
