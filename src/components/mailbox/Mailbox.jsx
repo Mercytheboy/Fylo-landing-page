@@ -17,7 +17,7 @@ function Mailbox() {
         action=""
         className="mailbox__section-form
       ">
-        <input type="text" placeholder="email@example.com" />
+        <input type="text" placeholder="email@example.com"  />
         <Btn label={"Get started For Free"} type={"submit"} />
       </form>
     </div>
